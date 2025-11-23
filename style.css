@@ -1,0 +1,25 @@
+body {
+    background: #f7f7f7;
+}
+
+.main-wrapper {
+    background: linear-gradient(to right, #e7f6ff, #ffffff);
+}
+
+.image-card {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 20px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.image-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    cursor: pointer;
+}
